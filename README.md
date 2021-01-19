@@ -33,7 +33,7 @@
 
 ## Histograms
 
-<img src='README-Docs/histograms-uni.png' width = '800' height='600'>
+<img src='README-Docs/histograms-uni.jpg' width = '800' height='600'>
 
 1. `dayofweek`: shows a nearly-even distribuition along all days.
 2. `hour`: a huge drop after 2:00 AM until 10:00 AM which is very logic considering the users are probably asleep.
@@ -45,7 +45,7 @@
 
 ## Correlation with Target
 
-<img src='README-Docs/correaltion-target.png' width = '800' height='400'>
+<img src='README-Docs/correaltion-target.jpg' width = '800' height='400'>
 
 1. `dayofweek`: as we saw in the histogram, the distribuition was quite even which caused the corrleation between it and the target to be very small.
 2. `hour`: the negative correlation means that at earlier hours the possibilty of getting enrolled is higher.
@@ -71,7 +71,7 @@
 
 * To calculate the time taken for each customer to response, we will subtract the enrollement time from the first open time.
 
-<img src='README-Docs/response-time.png' width = '800' height='350'>
+<img src='README-Docs/response-time.png' width = '1000' height='500'>
 
 We will take the time threshold at 48 hours (2 days). After that, the customer will be considered unrolled as we will check the model's performance after 2 days of operating it.
 
